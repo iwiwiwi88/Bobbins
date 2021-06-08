@@ -32,3 +32,4 @@ test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
 /target
+*.DS_Store
