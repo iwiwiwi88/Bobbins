@@ -1,13 +1,13 @@
-package pl.iwi.floss.bobins;
+package pl.iwi.floss.bobbins;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BobinsApplication {
+public class BobbinsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BobinsApplication.class, args);
+		SpringApplication.run(BobbinsApplication.class, args);
 	}
 
 }
