@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api")
-public class FlossController {
+public class BobbinController {
 
     private final FlossService flossColorService;
     private final BobbinService bobbinService;
@@ -35,9 +35,5 @@ public class FlossController {
         return flossColorService.getFloss(id);
     }
 
-//    @GetMapping("/flosses/{flossType}/{color}")
-//    public FlossColor getFloss(@PathVariable String flossType, String flossColor) {
-//        return flossColorService.getFloss(flossType, flossColor);
-//    }
 
 }
